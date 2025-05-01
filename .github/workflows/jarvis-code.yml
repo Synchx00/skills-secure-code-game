@@ -28,7 +28,7 @@ jobs:
       - name: Check GitHub Status
         # Source of GitHub Action in line 30: 
         # https://github.com/dduzgun-security/secure-code-game-action
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             console.log('Hello, Jarvis!');
